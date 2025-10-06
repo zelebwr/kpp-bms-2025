@@ -34,7 +34,7 @@
       </a>
     </section>
 
-    <section class="w-full bg-[#b30000] py-10">
+    <section id="about" class="w-full bg-[#b30000] py-10">
       <div
         class="container mx-auto px-2 md:px-6 flex flex-col lg:flex-row items-center justify-between gap-6"
       >
@@ -51,7 +51,7 @@
         </div>
         <div class="flex-1 flex items-center justify-center">
           <img
-            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80"
+            src="/Assets/Foto-teman-teman/fotoBareng.jpg"
             alt="BMS IT 2025 Group"
             class="rounded-lg shadow-lg w-full max-w-xs object-cover"
           />
@@ -62,62 +62,111 @@
     <section id="portfolio" class="w-full bg-[#262626] py-12">
       <div class="container mx-auto px-2 md:px-6">
         <h2 class="text-2xl font-bold text-center mb-8">Our Portfolio</h2>
+        
+        <!-- Row 1: 3 items -->
+        <div class="flex flex-wrap justify-center gap-x-6 gap-y-8 mb-8">
+          <!-- Portfolio Item 1 - Alfa Videography -->
+          <div
+            class="w-[270px] bg-[#262626] rounded-lg shadow-md border-4 border-[#7b0000] flex flex-col overflow-hidden"
+          >
+            <div class="h-[150px] bg-[#b30000] flex items-center justify-center overflow-hidden">
+              <video class="w-full h-full object-cover" muted loop playsinline onmouseover="this.play()" onmouseout="this.pause()">
+                <source src="/Assets/Portofolio-teman-teman/BMS_videoGraphy_Alfa.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="p-4 flex flex-col gap-2 flex-1">
+              <div class="font-bold text-base">Videography Project - Alfa</div>
+              <div class="text-xs text-gray-100">Creative videography showcase by Alfa</div>
+              <div class="flex items-center justify-between text-xs mt-2">
+                <span class="font-semibold">By: Alfa</span>
+                <a href="/Assets/Portofolio-teman-teman/BMS_videoGraphy_Alfa.mp4" target="_blank" class="text-[#ffbdbd] hover:underline font-medium"
+                  >View Project &rarr;</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 2 - Hikari Advertisement -->
+          <div
+            class="w-[270px] bg-[#262626] rounded-lg shadow-md border-4 border-[#7b0000] flex flex-col overflow-hidden"
+          >
+            <div class="h-[150px] bg-[#b30000] flex items-center justify-center overflow-hidden">
+              <video class="w-full h-full object-cover" muted loop playsinline onmouseover="this.play()" onmouseout="this.pause()">
+                <source src="/Assets/Portofolio-teman-teman/IklanHikari.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="p-4 flex flex-col gap-2 flex-1">
+              <div class="font-bold text-base">Advertisement Video - Hikari</div>
+              <div class="text-xs text-gray-100">Creative advertisement campaign</div>
+              <div class="flex items-center justify-between text-xs mt-2">
+                <span class="font-semibold">By: Hikari</span>
+                <a href="/Assets/Portofolio-teman-teman/IklanHikari.mp4" target="_blank" class="text-[#ffbdbd] hover:underline font-medium"
+                  >View Project &rarr;</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio Item 3 - Rasya Daydreaming -->
+          <div
+            class="w-[270px] bg-[#262626] rounded-lg shadow-md border-4 border-[#7b0000] flex flex-col overflow-hidden"
+          >
+            <div class="h-[150px] bg-[#b30000] flex items-center justify-center overflow-hidden">
+              <video class="w-full h-full object-cover" muted loop playsinline onmouseover="this.play()" onmouseout="this.pause()">
+                <source src="/Assets/Portofolio-teman-teman/rasya-daydreaming.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="p-4 flex flex-col gap-2 flex-1">
+              <div class="font-bold text-base">Daydreaming - Rasya</div>
+              <div class="text-xs text-gray-100">Artistic video project exploring imagination</div>
+              <div class="flex items-center justify-between text-xs mt-2">
+                <span class="font-semibold">By: Rasya</span>
+                <a href="/Assets/Portofolio-teman-teman/rasya-daydreaming.mp4" target="_blank" class="text-[#ffbdbd] hover:underline font-medium"
+                  >View Project &rarr;</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Row 2: 2 items -->
         <div class="flex flex-wrap justify-center gap-x-6 gap-y-8">
+          <!-- Portfolio Item 4 - Alfa Marketing -->
           <div
             class="w-[270px] bg-[#262626] rounded-lg shadow-md border-4 border-[#7b0000] flex flex-col overflow-hidden"
           >
-            <div class="h-[70px] bg-[#b30000]"></div>
+            <div class="h-[150px] bg-[#b30000] flex items-center justify-center overflow-hidden">
+              <video class="w-full h-full object-cover" muted loop playsinline onmouseover="this.play()" onmouseout="this.pause()">
+                <source src="/Assets/Portofolio-teman-teman/BMS_marketing_Alfa.mp4" type="video/mp4">
+              </video>
+            </div>
             <div class="p-4 flex flex-col gap-2 flex-1">
-              <div class="font-bold text-base">Project Title 1</div>
-              <div class="text-xs text-gray-100">Brief Description of the project done...</div>
+              <div class="font-bold text-base">Marketing Campaign - Alfa</div>
+              <div class="text-xs text-gray-100">Strategic marketing video content</div>
               <div class="flex items-center justify-between text-xs mt-2">
-                <span class="font-semibold">By: Human1</span>
-                <a href="#" class="text-[#ffbdbd] hover:underline font-medium"
+                <span class="font-semibold">By: Alfa</span>
+                <a href="/Assets/Portofolio-teman-teman/BMS_marketing_Alfa.mp4" target="_blank" class="text-[#ffbdbd] hover:underline font-medium"
                   >View Project &rarr;</a
                 >
               </div>
             </div>
           </div>
+
+          <!-- Portfolio Item 5 - Scene Naila -->
           <div
             class="w-[270px] bg-[#262626] rounded-lg shadow-md border-4 border-[#7b0000] flex flex-col overflow-hidden"
           >
-            <div class="h-[70px] bg-[#b30000]"></div>
-            <div class="p-4 flex flex-col gap-2 flex-1">
-              <div class="font-bold text-base">Project Title 1</div>
-              <div class="text-xs text-gray-100">Brief Description of the project done...</div>
-              <div class="flex items-center justify-between text-xs mt-2">
-                <span class="font-semibold">By: Human1</span>
-                <a href="#" class="text-[#ffbdbd] hover:underline font-medium"
-                  >View Project &rarr;</a
-                >
-              </div>
+            <div class="h-[150px] bg-[#b30000] flex items-center justify-center overflow-hidden">
+              <video class="w-full h-full object-cover" muted loop playsinline onmouseover="this.play()" onmouseout="this.pause()">
+                <source src="/Assets/Portofolio-teman-teman/SceneNaila.mp4" type="video/mp4">
+              </video>
             </div>
-          </div>
-          <div
-            class="w-[270px] bg-[#262626] rounded-lg shadow-md border-4 border-[#7b0000] flex flex-col overflow-hidden"
-          >
-            <div class="h-[70px] bg-[#b30000]"></div>
             <div class="p-4 flex flex-col gap-2 flex-1">
-              <div class="font-bold text-base">Project Title 1</div>
-              <div class="text-xs text-gray-100">Brief Description of the project done...</div>
+              <div class="font-bold text-base">Scene Production - Naila</div>
+              <div class="text-xs text-gray-100">Cinematic scene creation and editing</div>
               <div class="flex items-center justify-between text-xs mt-2">
-                <span class="font-semibold">By: Human1</span>
-                <a href="#" class="text-[#ffbdbd] hover:underline font-medium"
-                  >View Project &rarr;</a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-[270px] bg-[#262626] rounded-lg shadow-md border-4 border-[#7b0000] flex flex-col overflow-hidden"
-          >
-            <div class="h-[70px] bg-[#b30000]"></div>
-            <div class="p-4 flex flex-col gap-2 flex-1">
-              <div class="font-bold text-base">Project Title 1</div>
-              <div class="text-xs text-gray-100">Brief Description of the project done...</div>
-              <div class="flex items-center justify-between text-xs mt-2">
-                <span class="font-semibold">By: Human1</span>
-                <a href="#" class="text-[#ffbdbd] hover:underline font-medium"
+                <span class="font-semibold">By: Naila</span>
+                <a href="/Assets/Portofolio-teman-teman/SceneNaila.mp4" target="_blank" class="text-[#ffbdbd] hover:underline font-medium"
                   >View Project &rarr;</a
                 >
               </div>
@@ -127,74 +176,70 @@
       </div>
     </section>
 
-    <section id="contributors" class="w-full bg-[#b30000] py-12 mt-8">
-      <div class="container mx-auto px-2 md:px-6">
-        <h2 class="text-2xl font-bold text-center mb-1">Meet the Contributors</h2>
-        <div class="text-center mb-8 text-sm text-[#ffcccc]">The team behind the projects.</div>
-        <div class="flex flex-wrap justify-center gap-x-8 gap-y-10">
-          <div
-            class="w-[180px] bg-[#262626] rounded-lg shadow-md flex flex-col items-center py-6 px-4"
-          >
-            <div
-              class="w-24 h-24 rounded-md bg-gradient-to-b from-gray-200 to-gray-600 mb-4 shadow-md"
-            ></div>
-            <div class="w-full">
-              <div class="text-white font-bold text-base leading-tight">J. Zelig S.</div>
-              <div class="text-xs text-gray-200">Role: UI/UX Designer</div>
-              <div class="text-xs text-gray-400">502741047</div>
-            </div>
-          </div>
-          <div
-            class="w-[180px] bg-[#262626] rounded-lg shadow-md flex flex-col items-center py-6 px-4"
-          >
-            <div
-              class="w-24 h-24 rounded-md bg-gradient-to-b from-gray-200 to-gray-600 mb-4 shadow-md"
-            ></div>
-            <div class="w-full">
-              <div class="text-white font-bold text-base leading-tight">J. Zelig S.</div>
-              <div class="text-xs text-gray-200">Role: UI/UX Designer</div>
-              <div class="text-xs text-gray-400">502741047</div>
-            </div>
-          </div>
-          <div
-            class="w-[180px] bg-[#262626] rounded-lg shadow-md flex flex-col items-center py-6 px-4"
-          >
-            <div
-              class="w-24 h-24 rounded-md bg-gradient-to-b from-gray-200 to-gray-600 mb-4 shadow-md"
-            ></div>
-            <div class="w-full">
-              <div class="text-white font-bold text-base leading-tight">J. Zelig S.</div>
-              <div class="text-xs text-gray-200">Role: UI/UX Designer</div>
-              <div class="text-xs text-gray-400">502741047</div>
-            </div>
-          </div>
-          <div
-            class="w-[180px] bg-[#262626] rounded-lg shadow-md flex flex-col items-center py-6 px-4"
-          >
-            <div
-              class="w-24 h-24 rounded-md bg-gradient-to-b from-gray-200 to-gray-600 mb-4 shadow-md"
-            ></div>
-            <div class="w-full">
-              <div class="text-white font-bold text-base leading-tight">J. Zelig S.</div>
-              <div class="text-xs text-gray-200">Role: UI/UX Designer</div>
-              <div class="text-xs text-gray-400">502741047</div>
-            </div>
-          </div>
-          <div
-            class="w-[180px] bg-[#262626] rounded-lg shadow-md flex flex-col items-center py-6 px-4"
-          >
-            <div
-              class="w-24 h-24 rounded-md bg-gradient-to-b from-gray-200 to-gray-600 mb-4 shadow-md"
-            ></div>
-            <div class="w-full">
-              <div class="text-white font-bold text-base leading-tight">J. Zelig S.</div>
-              <div class="text-xs text-gray-200">Role: UI/UX Designer</div>
-              <div class="text-xs text-gray-400">502741047</div>
-            </div>
-          </div>
+<section id="contributors" class="w-full bg-[#b30000] py-12 mt-8">
+  <div class="container mx-auto px-2 md:px-6">
+    <h2 class="text-2xl font-bold text-center mb-1">Meet the Contributors</h2>
+    <div class="text-center mb-8 text-sm text-[#ffcccc]">The team behind the projects.</div>
+    
+    <div class="flex flex-wrap justify-center gap-8">
+
+      <div class="w-60 h-80 rounded-lg shadow-lg overflow-hidden relative group">
+        <img src="/Assets/Foto-teman-teman/fotoAlfa.jpg" alt="Alfa" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+        <div class="absolute bottom-0 left-0 w-full p-4 text-white" style="background-color: rgba(0, 0, 0, 0.7);">
+          <div class="font-bold text-lg">M. Alfaeran Auriga R.</div>
+          <div class="text-sm text-gray-200">Role: Videographer</div>
+          <div class="text-xs text-gray-400 mt-1">5027241115</div>
         </div>
       </div>
-    </section>
+
+      <div class="w-60 h-80 rounded-lg shadow-lg overflow-hidden relative group">
+        <img src="/Assets/Foto-teman-teman/fotoArdhi.jpg" alt="Ardhi" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+        <div class="absolute bottom-0 left-0 w-full p-4 text-white" style="background-color: rgba(0, 0, 0, 0.7);">
+          <div class="font-bold text-lg">Ardhi Putra Pradana</div>
+          <div class="text-sm text-gray-200">Role: Developer</div>
+          <div class="text-xs text-gray-400 mt-1">5027241022</div>
+        </div>
+      </div>
+
+      <div class="w-60 h-80 rounded-lg shadow-lg overflow-hidden relative group">
+        <img src="/Assets/Foto-teman-teman/fotoHikari.jpg" alt="Hikari" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+        <div class="absolute bottom-0 left-0 w-full p-4 text-white" style="background-color: rgba(0, 0, 0, 0.7);">
+          <div class="font-bold text-lg">M. Hikari Reiziq R.</div>
+          <div class="text-sm text-gray-200">Role: UI/UX Designer</div>
+          <div class="text-xs text-gray-400 mt-1">5027241079</div>
+        </div>
+      </div>
+
+      <div class="w-60 h-80 rounded-lg shadow-lg overflow-hidden relative group">
+        <img src="/Assets/Foto-teman-teman/fotoNadia.jpg" alt="Nadia" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+        <div class="absolute bottom-0 left-0 w-full p-4 text-white" style="background-color: rgba(0, 0, 0, 0.7);">
+          <div class="font-bold text-lg">Nadia Fauziazahra K.</div>
+          <div class="text-sm text-gray-200">Role: Content Creator</div>
+          <div class="text-xs text-gray-400 mt-1">5027241094</div>
+        </div>
+      </div>
+
+      <div class="w-60 h-80 rounded-lg shadow-lg overflow-hidden relative group">
+        <img src="/Assets/Foto-teman-teman/fotoNaila.jpg" alt="Naila" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+        <div class="absolute bottom-0 left-0 w-full p-4 text-white" style="background-color: rgba(0, 0, 0, 0.7);">
+          <div class="font-bold text-lg">Naila Cahyarani Idelia </div>
+          <div class="text-sm text-gray-200">Role: Video Editor</div>
+          <div class="text-xs text-gray-400 mt-1">5027241063</div>
+        </div>
+      </div>
+
+      <div class="w-60 h-80 rounded-lg shadow-lg overflow-hidden relative group">
+        <img src="/Assets/Foto-teman-teman/fotoZelig.jpg" alt="Zelig" class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110">
+        <div class="absolute bottom-0 left-0 w-full p-4 text-white" style="background-color: rgba(0, 0, 0, 0.7);">
+          <div class="font-bold text-lg">Jonathan Zelig Sutopo </div>
+          <div class="text-sm text-gray-200">Role: UI/UX Designer</div>
+          <div class="text-xs text-gray-400 mt-1">502741047</div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
 
     <footer class="text-center py-4 text-xs text-gray-300 mt-8">
       <div>© 2025 BMS IT Group. All Rights Reserved.</div>
